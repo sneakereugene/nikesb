@@ -1,0 +1,120 @@
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+main{
+	background-image: url('../img/fon.jpg');
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 106px;
+
+}
+.baner{
+	width: 686px;
+	height: 388px;
+	background-color: #111a28;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 106px;
+	padding-top: 20px;
+	font-size: 0.8em;
+}
+.logo{
+	font-size: 0;
+	width: 60px;
+	height: 30px;
+	margin-left: 20px;
+	padding-bottom: 47px;
+}
+.shot{
+	width: 370px;
+	margin-left: 25px;
+	margin-bottom:45px;
+}
+.text{
+	font-family: 'Mina', sans-serif;
+	line-height: 30px;
+	color: #a0a3a7;
+	margin-left: 20px;
+}
+.content{
+	display: flex;
+}
+form{
+
+	width: 100px;
+	height: 100px;
+}
+.flex{
+	 display: flex;
+}
+.qty{
+	margin-left: 10px;
+}
+select{
+	width: 70px;
+	height: 30px;
+	background: transparent;
+	border: 2px solid #4f5560;
+}
+input{
+	background: transparent;
+	top:348px;
+	position: absolute;
+	width: 180px;
+	height: 40px;
+	background: #202835;
+	border: 2px solid #4f5560;
+}
+.circles{
+	margin: 0 auto;
+	display: block;
+	line-height: 90px;
+}
+.yellowstar{
+	color:#f7bf16
+}
